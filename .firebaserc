@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "loginangularfirebase-12c38": {
+      "hosting": {
+        "new-project": [
+          "loginangularfirebase-12c38"
+        ]
+      }
+    }
+  }
+}

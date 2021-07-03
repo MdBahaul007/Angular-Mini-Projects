@@ -1,0 +1,16 @@
+.container{
+  display: flex;
+  justify-content:center ;
+  /* align-items: center; */
+
+
+}
+section input{
+  margin: 1rem;
+  width: 350px;
+  font-size: 23px;
+ font-weight: bold;
+}
+.section1 label{
+  margin-left: 25px;
+}

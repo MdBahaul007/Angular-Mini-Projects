@@ -1,0 +1,14 @@
+<div class="container">
+<div class="layout-column align-items-center mt-50" [formGroup]="tempratureConverter">
+
+  <section class="layout-row align-items-center justify-content-between section1">
+    <label>Celsius: </label>
+    <input type="number" class="large" data-test-id="celsius-input" formControlName="cel" (blur)="celToFeren(tempratureConverter.value)" />
+  </section>
+
+  <section class="layout-row align-items-center justify-content-between section2">
+    <label>Fahrenheit: </label>
+    <input type="number" class="large" data-test-id="fahrenheit-input" formControlName="feren" (blur)="ferenToCel( tempratureConverter.value)"/>
+  </section>
+</div>
+</div>

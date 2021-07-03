@@ -1,0 +1,13 @@
+<form [formGroup]="loginElement">
+<label>Email:</label>
+<input type="email" placeholder="Enter Email" name="email" formControlName="email">
+
+<br /> <br/>
+
+<label>Paasword:</label>
+<input type="password" placeholder="Enter Email" name="password" formControlName="password">
+
+<br /><br />
+
+<button type="button" (click)="login()">Login</button>
+</form>

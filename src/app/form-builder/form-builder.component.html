@@ -1,0 +1,22 @@
+
+<form [formGroup]="userLoginCredits" (ngSubmit)="onClick()">
+
+  <div class="form-group">
+    <label>Enter User-Name</label>
+    <input type="text" class="form-control" placeholder="Enter User-Name" formControlName="name1">
+  </div>
+
+  <div class="form-group">
+    <label>Enter User-Email</label>
+    <input type="email" class="form-control" placeholder="Enter User-Email" formControlName="email1">
+  </div>
+
+  <div class="form-group">
+    <label>Password</label>
+    <input type="password" class="form-control" placeholder="Enter Userpassword" formControlName="password1">
+  </div>
+
+  <button  type="submit" [disabled]="!userLoginCredits.valid">Submit</button>
+</form>
+
+
